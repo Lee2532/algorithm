@@ -21,22 +21,6 @@ def solution(scoville, K):
         except:
             return -1
 
-# def solution(scoville, K):
-#     heap = []
-#     for i in scoville:
-#         heapq.heappush(heap, i)
-#     count = 0
-#
-#     while True:
-#         try:
-#             count += 1
-#             new_scoville = heapq.heappop(heap) + (heapq.heappop(heap) * 2)
-#             if new_scoville > K:
-#                 return count
-#             heapq.heappush(heap, new_scoville)
-#
-#         except:
-#             return -1
 
 
 if __name__ == '__main__':
